@@ -1,3 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>Team Name: <%= @team["team"]["name"] %></h1>
+    <h2>Team Motto: <%= @team["team"]["motto"] %></h2>
 
+    <h2>Hero Name: <%= @team["hero"][0]["name"] %></h2>
+    <p>Hero Power: <%= @team["hero"][0]["power"] %></p>
+    <p>Hero Biography: <%= @team["hero"][0]["bio"] %></p>
 
+    <h2>Hero Name: <%= @team["hero"][1]["name"] %></h2>
+    <p>Hero Power: <%= @team["hero"][1]["power"] %></p>
+    <p>Hero Biography: <%= @team["hero"][1]["bio"] %></p>
 
+    <h2>Hero Name: <%= @team["hero"][2]["name"] %></h2>
+    <p>Hero Power: <%= @team["hero"][2]["power"] %></p>
+    <p>Hero Biography: <%= @team["hero"][2]["bio"] %></p>
+
+  </body>
+</html>
